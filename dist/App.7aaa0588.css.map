@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/App.css","../src/App.scss"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;ACDA;EACC,kBAHkB","file":"App.7aaa0588.css","sourceRoot":"../public","sourcesContent":["h1 {\n\tcolor: #6495ed;\n}\n","$background-color: #b3b3b3;\n\nbody {\n\tbackground-color: $background-color;\n}\n"]}
