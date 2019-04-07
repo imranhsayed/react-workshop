@@ -7,11 +7,9 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Info
-
-1. :snowflake: [01-add-react-in-a-min](https://github.com/imranhsayed/react-workshop/tree/01-add-react-in-a-min) : Create a react app in a minute :clock1: using React Scripts
-2. :rocket: [01-create-react-app](https://github.com/imranhsayed/react-workshop/tree/01-create-react-app) : Create a React application using create-react-app
-
+## Branch Name: 01-add-react-in-a-min
+## Branch Description:
+Set up React Application with Parcel
 
 ## Installation
 
@@ -19,8 +17,23 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 2. Run `npm install`
 
+## Steps for creating a new project using Parcel
+
+1. `npm init -yes`
+
+2. `npm install react react-dom`
+
+3. Install Parcel CLI called 'parcel-bundler' globally to run parcel commands `npm install -g parcel-bundler` 
+
+4. `npm install parcel-bundler -D`
+
+5. `mkdir src`
+
+6. `touch App.js`
+
+
 ## Commands
 
-- `dev` Runs webpack dev server for development ( in watch mode )
-- `build` Runs webpack in production mode
+- `parcel public/index.html` or `npm run parcel` Runs dev server for development on http://localhost:1234( in watch mode )
+
 
