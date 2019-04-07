@@ -20,5 +20,5 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 ## Commands
 
-- `dev` Runs webpack dev server for development ( in watch mode )
-- `build` Runs webpack in production mode
+- cd `react-app`
+- `start` Runs dev server at port:3000 ( in watch mode )
