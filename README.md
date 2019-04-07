@@ -16,6 +16,9 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 3. :package: [01-react-app-parcel](https://github.com/imranhsayed/react-workshop/tree/01-react-app-parcel) : Create a React application using parcel
 4. :gift: [01-react-app-webpack](https://github.com/imranhsayed/react-workshop/tree/01-react-app-webpack) : Set up React application with using Webpack and Babel
 
+5. :tanabata_tree: [02-component-types](https://github.com/imranhsayed/react-workshop/tree/02-component-types) : Types of Components : Class & Functional Components
+
+
 
 ## Installation
 
