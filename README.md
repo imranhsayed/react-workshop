@@ -7,16 +7,16 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Get Started
+## Branch Name: 01-add-react-in-a-min
+## Branch Description
+Adds a React component to an HTML page in three steps:
 
+- Add DOM container where we will display our React App with an #root 
+- Add React scripts
+- Create a React Component
+
+[Reference Link]: https://reactjs.org/docs/add-react-to-a-website.html
 
 ## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
-
-2. Run `npm install`
-
-## Commands
-
-- `dev` Runs webpack dev server for development ( in watch mode )
-- `build` Runs webpack in production mode
