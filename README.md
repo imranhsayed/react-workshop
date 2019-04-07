@@ -9,10 +9,8 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 ## Branch Info
 
-1. :snowflake: [01-add-react-in-a-min] : https://github.com/imranhsayed/react-workshop/tree/01-add-react-in-a-min 
-Create a react app in a minute :clock1: using React Scripts
-2. :rocket: [01-create-react-app] : https://github.com/imranhsayed/react-workshop/tree/01-create-react-app 
-Create a React application using create-react-app
+1. :snowflake: [01-add-react-in-a-min] [addReactInAMin] : Create a react app in a minute :clock1: using React Scripts
+2. :rocket: [01-create-react-app] [createReactApp] : Create a React application using create-react-app
 
 
 ## Installation
@@ -25,3 +23,6 @@ Create a React application using create-react-app
 
 - `dev` Runs webpack dev server for development ( in watch mode )
 - `build` Runs webpack in production mode
+
+[addReactInAMin] : https://github.com/imranhsayed/react-workshop/tree/01-add-react-in-a-min
+[createReactApp] : https://github.com/imranhsayed/react-workshop/tree/01-create-react-app
