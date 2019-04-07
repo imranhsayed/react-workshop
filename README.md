@@ -12,17 +12,19 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 1. :snowflake: [01-add-react-in-a-min](https://github.com/imranhsayed/react-workshop/tree/01-add-react-in-a-min) : Create a react app in a minute :clock1: using React Scripts
 2. :rocket: [01-create-react-app](https://github.com/imranhsayed/react-workshop/tree/01-create-react-app) : Create a React application using create-react-app
 3. :package: [01-react-app-parcel](https://github.com/imranhsayed/react-workshop/tree/01-react-app-parcel) : Create a React application using parcel
-4. :gift: [01-react-app-webpack](https://github.com/imranhsayed/react-workshop/tree/01-react-app-webpack) : Set up React Application with using Webpack and Babel
+4. :gift: [01-react-app-webpack](https://github.com/imranhsayed/react-workshop/tree/01-react-app-webpack) : Set up React application with using Webpack and Babel
 
 
 ## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
 
-2. Run `npm install`
+## Instructions
 
-## Commands
+Please follow the README for individual repositories
+
+## Common Commands
 
 - `dev` Runs webpack dev server for development ( in watch mode )
-- `build` Runs webpack in production mode
+- `prod` Runs webpack in production mode
 
