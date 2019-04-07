@@ -7,7 +7,7 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 01-add-react-in-a-min
+## Branch Name: 01-react-app-parcel
 ## Branch Description:
 Set up React Application with Parcel
 
