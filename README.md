@@ -15,7 +15,7 @@ Set up React Application with Parcel
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
 
-2. Run `npm install`
+2. Run `yarn`
 
 ## Steps for creating a new project using Parcel
 
