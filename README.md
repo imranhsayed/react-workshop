@@ -31,6 +31,10 @@ Set up React Application with Parcel
 
 6. `touch App.js`
 
+## Notes
+
+Please note that parcel does not support spread operators out of the box . So if we decide to use that
+we should install 'babel-plugin-transform-object-rest-spread'
 
 ## Commands
 
