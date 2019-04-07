@@ -7,14 +7,16 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Get Started
+## Branch Name: 01-create-react-app
+### Branch Description: Set up React using create-react-app
 
 
 ## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
-
-2. Run `npm install`
+2. `git checkout 01-create-react-app`
+3. `cd react-app`
+4. Run `yarn`
 
 ## Commands
 

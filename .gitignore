@@ -3,4 +3,4 @@
 npm-debug.log
 .DS_Store
 build/
-node_modules/
+react-app/node_modules/
