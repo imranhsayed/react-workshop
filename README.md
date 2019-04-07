@@ -33,9 +33,10 @@ Set up React Application with Parcel
 
 ## Notes
 
-Please note that parcel does not support spread operators out of the box . So if we decide to use that
-we should install 'babel-plugin-transform-object-rest-spread'
-Then create a .babelrc and add that as a plugin `{ "plugins": ['babel-plugin-transform-object-rest-spread] }`
+Please note that parcel does not support spread operators out of the box .
+So if we decide to use that, we should install 'babel-plugin-transform-object-rest-spread'
+
+Then create a `.babelrc` and add that as a plugin `{ "plugins": ['babel-plugin-transform-object-rest-spread] }`
 
 ## Commands
 
