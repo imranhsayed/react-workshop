@@ -9,8 +9,8 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 ## Branch Info
 
-1. :snowflake: [01-add-react-in-a-min] [addReactInAMin] : Create a react app in a minute :clock1: using React Scripts
-2. :rocket: [01-create-react-app] [createReactApp] : Create a React application using create-react-app
+1. :snowflake: [01-add-react-in-a-min][addReactInAMin] : Create a react app in a minute :clock1: using React Scripts
+2. :rocket: [01-create-react-app][createReactApp] : Create a React application using create-react-app
 
 
 ## Installation
