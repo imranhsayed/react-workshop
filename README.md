@@ -1,6 +1,6 @@
-## React Workshop
+# React Workshop
 
-:hammer_and_pick: :fire: This is a workshop for learning how to build React Applications.
+:fire: This is a workshop for learning how to build React Applications.
 
 ## Before you Start
 I've branched the repo for individual topics.
@@ -12,7 +12,8 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 ## Installation
 
-1.Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
+1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
+
 2. Run `npm install`
 
 ## Commands
