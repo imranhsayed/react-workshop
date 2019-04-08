@@ -7,7 +7,9 @@ I've branched the repo for individual topics.
 
 To see all branches run: `git branch --all`.
 
-To checkout to individual branch run: `git checkout <branch name>`. Then check its README.md . From there on you should be good.
+To checkout to individual branch run: `git checkout <branch name>`. Then check its README.md .
+ From there on you should be good.
+
 
 ## Branch Info
 
