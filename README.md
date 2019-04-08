@@ -18,6 +18,7 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 3. :package: [01-react-app-parcel](https://github.com/imranhsayed/react-workshop/tree/01-react-app-parcel) : Create a React application using parcel
 4. :gift: [01-react-app-webpack](https://github.com/imranhsayed/react-workshop/tree/01-react-app-webpack) :  Set up React application with using Webpack and Babel
 
+
 5. :tanabata_tree: [02-component-types](https://github.com/imranhsayed/react-workshop/tree/02-component-types) : Types of Components : Class & Functional Components
 6. :dizzy: [02-jsx-examples](https://github.com/imranhsayed/react-workshop/tree/02-jsx-examples) : Examples of JSX
 7. :ear_of_rice: [02-hierarchical-components](https://github.com/imranhsayed/react-workshop/tree/02-hierarchical-components) Demo for Parent & Child Component, with state and props.
