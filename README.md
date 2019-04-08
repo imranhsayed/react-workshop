@@ -19,6 +19,8 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 4. :gift: [01-react-app-webpack](https://github.com/imranhsayed/react-workshop/tree/01-react-app-webpack) : Set up React application with using Webpack and Babel
 
 5. :tanabata_tree: [02-component-types](https://github.com/imranhsayed/react-workshop/tree/02-component-types) : Types of Components : Class & Functional Components
+6. :dizzy: [02-jsx-examples](https://github.com/imranhsayed/react-workshop/tree/02-jsx-examples) : Examples of JSX
+
 
 
 
