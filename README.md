@@ -26,6 +26,9 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 8. :crossed_flags: [02-handling-routes](https://github.com/imranhsayed/react-workshop/tree/02-handling-routes) Handling routes using @reach/router
 9. :clipboard: [02-handling-forms](https://github.com/imranhsayed/react-workshop/tree/02-handle-forms) Handling forms in react
 
+### Day 3: 
+10. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
+
 
 
 
