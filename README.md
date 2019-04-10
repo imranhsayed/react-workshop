@@ -27,8 +27,9 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 9. :clipboard: [02-handling-forms](https://github.com/imranhsayed/react-workshop/tree/02-handle-forms) Handling forms in react
 
 ### Day 3:
-10. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Higher Order Component Example 
+10. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-higher-order-component) Higher Order Component Example 
 11. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
+12. :memo: [03-react-memo](https://github.com/imranhsayed/react-workshop/tree/03-react-memo) React memo example
 
 
 
