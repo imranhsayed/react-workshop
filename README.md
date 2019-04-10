@@ -7,9 +7,11 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 01-react-app-webpack
+## Branch Name: 03-react-memo
 ## Branch Description:
-Set up React Application with using Webpack and Babel
+Example for using React.memo()
+React.memo is a higher order component.
+Does not rerender if the props value does not change.
 
 ## Installation
 
