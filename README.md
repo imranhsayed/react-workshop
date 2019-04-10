@@ -34,7 +34,6 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 
 
 
-
 ## Installation
 
 1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
