@@ -4,9 +4,9 @@
   "description": ":fire: This is a workshop for learning how to build React Applications.",
   "main": "index.js",
   "scripts": {
-	"webpack-dev-server": "webpack-dev-server",
-	"dev": "webpack-dev-server --mode=development",
-	"prod": "webpack --mode=production"
+    "webpack-dev-server": "webpack-dev-server",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/imranhsayed/react-workshop#readme",
   "dependencies": {
+    "@reach/router": "^1.2.1",
+    "css-loader": "^2.1.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
