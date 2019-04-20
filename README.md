@@ -7,9 +7,10 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 01-react-app-webpack
+## Branch Name: 03-react-application-example
 ## Branch Description:
-Set up React Application with using Webpack and Babel
+Example for creating React Application with Header Footer Navbar, Display Posts by fetching data from 
+and api and Handling forms
 
 ## Installation
 
