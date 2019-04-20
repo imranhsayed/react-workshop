@@ -7,8 +7,9 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 01-create-react-app
-### Branch Description: Set up React using create-react-app
+## Branch Name: 02-get-derived-state-from-props
+### Branch Description:
+Example for component lifecycle method getDerivedStateFromProps
 
 
 ## Installation
