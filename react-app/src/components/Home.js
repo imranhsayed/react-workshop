@@ -6,39 +6,21 @@ class Home extends React.Component {
 		super( props );
 
 		this.state = {
-			number: 0
+			name: ''
 		}
 	}
 
-
-	componentDidMount() {
-		this.myInterval = setInterval(() => {
-			this.setState({ number: 1 });
-		}, 1000);
-	}
-
-	shouldComponentUpdate( nextProps, nextState ) {
-		console.warn( 'nextProps', nextProps );
-
-		if ( nextState.number === this.state.number ) {
-			return false;
-		} else {
-			console.warn( 'component was rendered' );
-			return true;
-		}
-	}
-
-	componentWillUnmount() {
-		clearInterval( this.myInterval );
-	}
+	handleOnClick = () => {
+		this.setState( { name: 'Richa' } );
+	};
 
 	render() {
-		console.warn( 'rendered', this.state );
+		console.warn( 'rendered', this.props );
 		return(
 			<div>
-				This is home
+				<button onClick={this.handleOnClick}>Click me</button>
 			</div>
-		)
+		);
 	}
 }
 
