@@ -6,32 +6,40 @@ class Home extends React.Component {
 		super( props );
 
 		this.state = {
-			name: 'Imran'
+			number: 0
 		}
 	}
 
-	static getDerivedStateFromProps( props, state ) {
-		console.warn( 'getDerivedStateFromProps is called' );
-		console.warn( 'state', state );
-		return null;
+
+	componentDidMount() {
+		this.myInterval = setInterval(() => {
+			this.setState({ number: 1 });
+		}, 1000);
 	}
 
-	handleClickEvent = () => {
-		this.forceUpdate( () => {
-			console.warn( 'The component is update' );
-			this.setState( { name: 'Irene' } );
-		} )
-	};
+	shouldComponentUpdate( nextProps, nextState ) {
+		console.warn( 'nextProps', nextProps );
+
+		if ( nextState.number === this.state.number ) {
+			return false;
+		} else {
+			console.warn( 'component was rendered' );
+			return true;
+		}
+	}
+
+	componentWillUnmount() {
+		clearInterval( this.myInterval );
+	}
 
 	render() {
-
-		console.warn( 'render is called' );
-		return (
+		console.warn( 'rendered', this.state );
+		return(
 			<div>
-				<button onClick={this.handleClickEvent}>Click me</button>
+				This is home
 			</div>
 		)
 	}
 }
 
-export default Home;
+export default Home

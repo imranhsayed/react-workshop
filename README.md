@@ -7,9 +7,9 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 02-get-derived-state-from-props
+## Branch Name: 02-should-component-update
 ### Branch Description:
-Example for component lifecycle method getDerivedStateFromProps
+Example for component lifecycle method: shouldComponentUpdate()
 
 
 ## Installation
