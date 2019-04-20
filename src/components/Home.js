@@ -18,13 +18,13 @@ class Home extends React.Component {
 				newData:  `${props.name} is a ${state.jobTitle}`
 			}
 		} )
-	};s
+	};
 
 	render() {
 		return(
 			<div>
 				<p>{ this.state.newData } </p>
-				<button onClick={ this.handleOnClickButton }>Set job title</button>
+				<button onClick={ this.handleOnClickButton }>Get the Data</button>
 			</div>
 		)
 	}
