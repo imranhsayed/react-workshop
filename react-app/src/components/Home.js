@@ -6,33 +6,43 @@ class Home extends React.Component {
 		super( props );
 
 		this.state = {
-			age: ''
-		}
+			data: '',
+			loading: true
+		};
+
+		console.warn( 'constructor called' );
 	}
 
-	handleOnclick = () => {
-		this.setState({ age: 28 });
+	componentDidMount() {
+		console.warn( 'didMount called' );
+		fetch('https://jsonplaceholder.typicode.com/todos/1')
+			.then(response => response.json())
+			.then(json => {
+				this.setState( { data: json, loading: false } );
+			})
+	}
+
+	componentWillUnmount() {
+		console.warn( 'Component unmounted' );
+	}
+
+	renderData = () => {
+		const mydata = this.state.data;
+		if ( mydata.id ) {
+			return (
+				<div>
+					<h1>Title : { mydata.title }</h1>
+					<p>With the id : { mydata.id } </p>
+				</div>
+			);
+		}
 	};
 
-	getSnapshotBeforeUpdate( prevProps, prevState ) {
-		console.warn( 'getSnapShot called' );
-		// console.warn( 'prevProps', prevProps );
-		// console.warn( 'prevState', prevState );
-
-		return 'xyz';
-
-	}
-
-	componentDidUpdate( prevProps, prevState, snapshot ) {
-		console.warn( 'didUpdate called' );
-		console.warn( 'snapshot', snapshot );
-	}
-
 	render() {
-		console.warn( 'render called' );
 		return(
 			<div>
-				<button onClick={this.handleOnclick}>Click me</button>
+				{ this.renderData() }
+				{ this.state.loading && <p>Loading...</p> }
 			</div>
 		);
 	}
