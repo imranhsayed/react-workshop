@@ -25,6 +25,7 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 7. :snowman: [02-state-and-props](https://github.com/imranhsayed/react-workshop/tree/02-state-and-props) : Examples for Component State and Props
 8. :ear_of_rice: [02-hierarchical-components](https://github.com/imranhsayed/react-workshop/tree/02-hierarchical-components) Demo for Parent & Child Component, with state and props.
 9. :crossed_flags: [02-handling-routes](https://github.com/imranhsayed/react-workshop/tree/02-handling-routes) Handling routes using @reach/router
+10.:ear_of_rice: [02-get-derived-state-from-props](https://github.com/imranhsayed/react-workshop/tree/02-get-derived-state-from-props) Example for Component Lifecycle method: getDerivedStateFromProps, constructor, forceUpdate
 10. :clipboard: [02-handling-forms](https://github.com/imranhsayed/react-workshop/tree/02-handle-forms) Handling forms in react
 
 ### Day 3:
