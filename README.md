@@ -22,16 +22,17 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 ### Day 2:
 5. :tanabata_tree: [02-component-types](https://github.com/imranhsayed/react-workshop/tree/02-component-types) : Types of Components : Class & Functional Components
 6. :dizzy: [02-jsx-examples](https://github.com/imranhsayed/react-workshop/tree/02-jsx-examples) : Examples of JSX
-7. :ear_of_rice: [02-hierarchical-components](https://github.com/imranhsayed/react-workshop/tree/02-hierarchical-components) Demo for Parent & Child Component, with state and props.
-8. :crossed_flags: [02-handling-routes](https://github.com/imranhsayed/react-workshop/tree/02-handling-routes) Handling routes using @reach/router
-9. :clipboard: [02-handling-forms](https://github.com/imranhsayed/react-workshop/tree/02-handle-forms) Handling forms in react
+7. :snowman: [02-state-and-props](https://github.com/imranhsayed/react-workshop/tree/02-state-and-props) : Examples for Component State and Props
+8. :ear_of_rice: [02-hierarchical-components](https://github.com/imranhsayed/react-workshop/tree/02-hierarchical-components) Demo for Parent & Child Component, with state and props.
+9. :crossed_flags: [02-handling-routes](https://github.com/imranhsayed/react-workshop/tree/02-handling-routes) Handling routes using @reach/router
+10. :clipboard: [02-handling-forms](https://github.com/imranhsayed/react-workshop/tree/02-handle-forms) Handling forms in react
 
 ### Day 3:
-10. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-higher-order-component) Higher Order Component Example 
-11. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
-12. :memo: [03-react-memo](https://github.com/imranhsayed/react-workshop/tree/03-react-memo) React memo example
-13. :arrow_right: [03-refs](https://github.com/imranhsayed/react-workshop/tree/03-refs) React's Refs example
-14. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
+11. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-higher-order-component) Higher Order Component Example 
+12. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
+13. :memo: [03-react-memo](https://github.com/imranhsayed/react-workshop/tree/03-react-memo) React memo example
+14. :arrow_right: [03-refs](https://github.com/imranhsayed/react-workshop/tree/03-refs) React's Refs example
+15. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
 
 
 
