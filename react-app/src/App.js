@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import Home from "./components/Home";
 
 class App extends Component {
 
-	constructor( props ) {
-		super( props );
-		this.state = {
-			name: 'Imran'
-		}
-
-	}
 
 
-	static getDerivedStateFromProps( state, props ) {
-		console.warn( props );
-		return null;
-	}
-  render() {
+
+	render() {
     return (
-      <div className="App">
+      <div>
+	      <Home data="Some data"/>
       </div>
     );
   }
