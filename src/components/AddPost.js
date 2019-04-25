@@ -10,9 +10,11 @@ class AddPost extends React.Component {
 
 		this.state = {
 			title: '',
-			body: ''
+			body: '',
+			newPosts: []
 		}
-	}
+
+	};
 
 	handleOnInputChange = ( event ) => {
 		this.setState( { [event.target.name]: event.target.value } );
@@ -34,7 +36,9 @@ class AddPost extends React.Component {
 			},
 			body: JSON.stringify(formData), // body data type must match "Content-Type" header
 		})
-			.then(response => console.warn( 'Form Submitted', response.json() ));
+			.then(response => response.json()
+				.then( newPostData => this.setState( { newPosts: [ ...this.state.newPosts, newPostData ] } ) )
+			);
 	};
 
 	render() {
@@ -42,7 +46,7 @@ class AddPost extends React.Component {
 		return(
 			<React.Fragment>
 				<Nav/>
-				<form className="my-form" onSubmit={this.onFormSubmit}>
+				<form className="my-form page-wrap" onSubmit={this.onFormSubmit}>
 					<fieldset>
 						<div className="form-group">
 							<label htmlFor="title">Title</label>

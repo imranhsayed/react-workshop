@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from "./Nav";
-import Posts from "./Post";
+import Posts from "./Posts";
 import Footer from "./Footer";
 
 class Home extends React.Component {
@@ -8,7 +8,6 @@ class Home extends React.Component {
 		return (
 			<React.Fragment>
 				<Nav/>
-				Home
 				<Posts/>
 				<Footer/>
 			</React.Fragment>

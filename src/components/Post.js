@@ -1,57 +1,56 @@
 import React from 'react';
-import '../Post.css';
+import Nav from "./Nav";
+import Footer from "./Footer";
+import queryString from 'qs';
+import { Link } from "@reach/router";
 
-class Posts extends React.Component {
+class Post extends React.Component {
 
 	constructor( props ) {
 		super( props );
 
 		this.state = {
-			posts: [],
-			loading: true
+			post: {},
 		}
 	}
-
-	_isMounted = false;
 
 	componentDidMount() {
-		this._isMounted = true;
-		fetch('https://jsonplaceholder.typicode.com/posts')
-			.then(response => response.json())
-			.then(jsonData => {
-				if ( this._isMounted ) {
-					this.setState( { posts: jsonData, loading: false } );
-				}
-			})
-	}
+		const queryStringValues = queryString.parse( this.props.location.search.slice(1) );
+		const postId = queryStringValues.postId;
+		console.warn( postId );
 
-	renderPostItems() {
-		const postData = this.state.posts;
-		if ( postData.length ) {
-			return postData.map( post => (
-				<div className="card border-primary mb-3" key={post.id} style={{ maxWidth: '20rem' }}>
-					<div className="card-header">{post.id}</div>
-					<div className="card-body">
-						<h4 className="card-title">{post.title}</h4>
-						<p className="card-text">{post.body}</p>
-					</div>
-				</div>
-			) );
+		if ( postId ) {
+			fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
+				.then(response => response.json())
+				.then(post => {
+					this.setState( { post: post } );
+				})
 		}
-	}
-
-	componentWillUnmount() {
-		this._isMounted = false;
 	}
 
 	render() {
-		return (
-			<div className="my-posts">
-				{ this.state.loading && <p>Loading...</p> }
-				{ this.renderPostItems() }
+		console.warn( this.state );
+		const postData = ( Object.keys( this.state.post ).length ) ? this.state.post : '';
+		console.warn( postData );
+		return(
+			<div>
+				<Nav/>
+					<div className="page-wrap">
+						<h4>Single Post</h4>
+						{ postData  && (
+							<div className="card border-primary mb-3">
+								<div className="card-header">{postData.id}</div>
+								<div className="card-body">
+									<h5 className="card-title">{postData.title}</h5>
+									<p className="card-text">{postData.body}</p>
+								</div>
+							</div>
+						) }
+					</div>
+				<Footer/>
 			</div>
-		)
+		);
 	}
 }
 
-export default Posts
+export default Post;

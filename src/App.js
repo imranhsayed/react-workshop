@@ -5,6 +5,7 @@ import About from "./components/About";
 import ContactUs from "./components/ContactUs";
 import './Footer.css';
 import AddPost from "./components/AddPost";
+import Post from './components/Post';
 
 class App extends React.Component {
 	render() {
@@ -12,8 +13,9 @@ class App extends React.Component {
 			<Router>
 				<Home path="/"/>
 				<About path="/about"/>
-				<ContactUs path="contact-us"/>
-				<AddPost path="add-post"/>
+				<ContactUs path="/contact-us"/>
+				<AddPost path="/add-post"/>
+				<Post path="/post" />
 			</Router>
 		);
 	}
