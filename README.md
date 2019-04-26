@@ -15,7 +15,11 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 ## Branch Name: 03-react-application-example2
 ## Branch Description:
-Example for Adding New posts using when the form is submitted.
+Example for :
+1. Creating Home Page, About Page, Contact Us Page, Navbar and Footer using React Components
+2. Fetching New posts using [JSON Placeholder API](https://jsonplaceholder.typicode.com)
+3. Adding New posts using when the form is submitted.
+4. Change in the color of active link when is clicked.
 
 ## Installation
 
