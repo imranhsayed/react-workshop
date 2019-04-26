@@ -37,7 +37,7 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 
 ### Day 3:
 12. :package: [03-react-application-example](https://github.com/imranhsayed/react-workshop/tree/03-react-application-example) Example for creating React Application with Header Footer Navbar, Display Posts by fetching data from 
-13. :snowman: [03-react-application-example2](https://github.com/imranhsayed/react-workshop/tree/03-react-application-example2) Example for Adding New posts using when the form is submitted.                                                                                                                        and api and Handling forms
+13. :snowman: [03-react-app-example2](https://github.com/imranhsayed/react-workshop/tree/03-react-app-example2) Example for Adding New posts using when the form is submitted.                                                                                                                        and api and Handling forms
                                                                                                                               
 14. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-higher-order-component) Higher Order Component Example 
 15. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
