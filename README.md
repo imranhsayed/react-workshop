@@ -15,11 +15,13 @@ To checkout individual branch run: `git checkout <branch name>`. From there on y
 
 ## Branch Name: 03-react-app-example2
 ## Branch Description:
-Example for :
-1. Creating Home Page, About Page, Contact Us Page, Navbar and Footer using React Components
-2. Fetching New posts using [JSON Placeholder API](https://jsonplaceholder.typicode.com)
-3. Adding New posts using when the form is submitted.
-4. Change in the color of active link when is clicked.
+Example for [Active links](https://reach.tech/router/example/active-links) using Reach router.
+Check src/NavLink.js
+
+We first create a NavLink custom Component. Reach Routers gives us access to a function called getProps
+inside this link and whatever is returned by that function is set as props for NavLink.
+We can return the desired styled inside of this function conditionally.
+Then instead of using Link tag we can use Navlink wherever we need.
 
 ## Installation
 
