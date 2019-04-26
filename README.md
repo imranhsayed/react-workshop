@@ -2,15 +2,20 @@
 
 :fire: This is a workshop for learning how to build React Applications.
 
+## :video_camera: App Demo
+![](Handling-forms.gif)
+
+## :video_camera: React Chrome Extension Demo
+![](React-Chrome-Extension.gif)
+
 ## Before you Start
 I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 03-react-application-example
+## Branch Name: 03-react-application-example2
 ## Branch Description:
-Example for creating React Application with Header Footer Navbar, Display Posts by fetching data from 
-and api and Handling forms
+Example for Adding New posts using when the form is submitted.
 
 ## Installation
 
