@@ -5,7 +5,7 @@
 ## :video_camera: App Demo
 ![](Handling-forms.gif)
 
-## :video_camera: React Chrome Extension Demo
+## :video_camera: React Developer Tools (Chrome Extension) Demo
 ![](React-Chrome-Extension.gif)
 
 ## Before you Start
