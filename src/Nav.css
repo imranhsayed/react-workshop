@@ -1,0 +1,8 @@
+.my-navbar-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.my-navbar-nav li {
+	padding: 0 5px;
+}

@@ -17,7 +17,6 @@ class Post extends React.Component {
 	componentDidMount() {
 		const queryStringValues = queryString.parse( this.props.location.search.slice(1) );
 		const postId = queryStringValues.postId;
-		console.warn( postId );
 
 		if ( postId ) {
 			fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)

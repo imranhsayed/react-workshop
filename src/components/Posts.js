@@ -47,7 +47,8 @@ class Posts extends React.Component {
 
 	render() {
 		return (
-			<div className="my-posts">
+			<div className="my-posts page-wrap">
+				<h3 className="mb-4">Latest Blog Posts</h3>
 				{ this.state.loading && <p>Loading...</p> }
 				{ this.renderPostItems() }
 			</div>

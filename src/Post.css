@@ -4,8 +4,17 @@
 }
 
 .page-wrap {
-	height: 75vh;
-	padding: 16px;
+	min-height: 75vh;
+	padding: 16px 36px;
 	max-width: 800px;
 	overflow: hidden;
+}
+
+
+.add-post-wrap {
+	overflow: unset;
+}
+
+.my-navbar {
+	padding: 10px 36px;
 }
