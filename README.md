@@ -13,7 +13,7 @@ I've branched the repo for individual topics.
 To checkout all branches run: `git branch --all`.
 To checkout individual branch run: `git checkout <branch name>`. From there on you should be good.
 
-## Branch Name: 03-react-app-example2
+## Branch Name: 03-active-links
 ## Branch Description:
 Example for [Active links](https://reach.tech/router/example/active-links) using Reach router.
 Check src/NavLink.js
