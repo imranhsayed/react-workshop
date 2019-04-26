@@ -2,6 +2,12 @@
 
 :fire: This is a workshop for learning how to build React Applications.
 
+## :video_camera: App Demo
+![](Handling-forms.gif)
+
+## :video_camera: React Chrome Extension Demo
+![](React-Chrome-Extension.gif)
+
 ## Before you Start
 I've branched the repo for individual topics.
 
@@ -31,13 +37,13 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 
 ### Day 3:
 12. :package: [03-react-application-example](https://github.com/imranhsayed/react-workshop/tree/03-react-application-example) Example for creating React Application with Header Footer Navbar, Display Posts by fetching data from 
-                                                                                                                              and api and Handling forms
+13. :snowman: [03-react-application-example2](https://github.com/imranhsayed/react-workshop/tree/03-react-application-example2) Example for Adding New posts using when the form is submitted.                                                                                                                        and api and Handling forms
                                                                                                                               
-13. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-higher-order-component) Higher Order Component Example 
-14. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
-15. :memo: [03-react-memo](https://github.com/imranhsayed/react-workshop/tree/03-react-memo) React memo example
-16. :arrow_right: [03-refs](https://github.com/imranhsayed/react-workshop/tree/03-refs) React's Refs example
-17. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
+14. :evergreen_tree: [03-higher-order-component](https://github.com/imranhsayed/react-workshop/tree/03-higher-order-component) Higher Order Component Example 
+15. :sweat_drops: [03-pure-component](https://github.com/imranhsayed/react-workshop/tree/03-pure-components) Pure Components Example
+16. :memo: [03-react-memo](https://github.com/imranhsayed/react-workshop/tree/03-react-memo) React memo example
+17. :arrow_right: [03-refs](https://github.com/imranhsayed/react-workshop/tree/03-refs) React's Refs example
+18. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
 
 
 
