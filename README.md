@@ -62,11 +62,11 @@ Please follow the README for individual repositories
 - `dev` Runs webpack dev server for development ( in watch mode )
 - `prod` Runs webpack in production mode
 
-## Workshop Gallery
+## Workshop Gallery 
 1. [Pictures](https://twitter.com/imranhsayed/status/1125435733106237441)
 2. [MeetUp](https://www.meetup.com/PuneJS/)
 
-## Tutorial Videos
+## Tutorial Videos :movie_camera:
 1. [React Tutorial Series](https://youtu.be/M-Aw4p0pWwg)
 
 ## Useful Blogs
