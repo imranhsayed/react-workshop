@@ -62,7 +62,7 @@ Please follow the README for individual repositories
 - `dev` Runs webpack dev server for development ( in watch mode )
 - `prod` Runs webpack in production mode
 
-## Workshop Gallery 
+## Workshop Gallery :sunrise_over_mountains:
 1. [Pictures](https://twitter.com/imranhsayed/status/1125435733106237441)
 2. [MeetUp](https://www.meetup.com/PuneJS/)
 
