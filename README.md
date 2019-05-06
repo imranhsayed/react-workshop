@@ -62,6 +62,10 @@ Please follow the README for individual repositories
 - `dev` Runs webpack dev server for development ( in watch mode )
 - `prod` Runs webpack in production mode
 
+## Workshop Gallery
+1. [Pictures](https://twitter.com/imranhsayed/status/1125435733106237441)
+
+
 ## Useful Blogs
 
 1. [SetUp React App with Webpack and Babel](https://medium.com/@imranhsayed/set-up-react-app-with-webpack-webpack-dev-server-and-babel-from-scratch-df398174446d)
