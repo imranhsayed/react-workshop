@@ -6,6 +6,10 @@ module.exports = {
 	output: {
 		path: path.resolve( __dirname, 'dist' ),
 		filename: 'main.js',
+		publicPath: '/',
+	},
+	devServer: {
+		historyApiFallback: true
 	},
 	module: {
 		rules: [
