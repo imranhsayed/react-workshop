@@ -46,7 +46,7 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 18. :arrow_right: [03-refs](https://github.com/imranhsayed/react-workshop/tree/03-refs) React's Refs example
 19. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
 
-
+### Miscellaneous:
 
 ## Installation
 
