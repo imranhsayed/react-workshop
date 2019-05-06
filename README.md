@@ -64,6 +64,7 @@ Please follow the README for individual repositories
 
 ## Workshop Gallery
 1. [Pictures](https://twitter.com/imranhsayed/status/1125435733106237441)
+2. [MeetUp](https://www.meetup.com/PuneJS/)
 
 
 ## Useful Blogs
