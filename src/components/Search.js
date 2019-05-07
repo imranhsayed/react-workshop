@@ -153,8 +153,11 @@ class Search extends  React.Component {
 
 		return (
 			<div className="container">
+				{/*Heading*/}
+				<h2 className="heading">Live Search: React Application</h2>
+
 				{/*Search Input*/}
-				<label htmlFor="search-input">
+				<label className="search-label" htmlFor="search-input">
 					<input
 						type="text"
 						onChange={this.handleOnInputChange}
@@ -162,6 +165,7 @@ class Search extends  React.Component {
 						id="search-input"
 						placeholder="Search..."
 					/>
+					<i className="fa fa-search search-icon"/>
 				</label>
 
 				{/*Error Message*/}
