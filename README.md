@@ -8,6 +8,9 @@
 ## :video_camera: React Developer Tools (Chrome Extension) Demo
 ![](React-Chrome-Extension.gif)
 
+## :video_camera: [Live Search Demo](https://github.com/imranhsayed/react-workshop/tree/live-search-react)
+![](live-search-demo.gif)
+
 ## Before you Start
 I've branched the repo for individual topics.
 
