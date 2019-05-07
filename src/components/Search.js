@@ -1,6 +1,9 @@
 import React from 'react';
 import axios from 'axios';
 import { config } from "../config";
+import PageNavigation from './PageNavigation';
+
+import '../Search.css';
 
 class Search extends  React.Component {
 
@@ -60,7 +63,7 @@ class Search extends  React.Component {
 				cancelToken: this.cancel.token,
 			})
 			.then((res) => {
-				const total = res.data.length;
+				const total = res.data.total;
 				const totalPagesCount = this.getPagesCount( total, 20 );
 				const resultNotFoundMsg = !res.data.hits.length
 					? 'There are no more search results. Please try a new search.'
@@ -95,16 +98,18 @@ class Search extends  React.Component {
 
 	renderSearchResults = () => {
 		const {results} = this.state;
-		console.warn( results );
+
 		if (Object.keys(results).length && results.length) {
 			return (
-				<div>
+				<div className="results-container">
 					{results.map((result) => {
 						return (
-							<div key={result.id} >
-								<h6>{result.user}</h6>
-								<img src={result.previewURL} alt={result.user}/>
-							</div>
+							<a key={result.id} href={result.previewURL} className="result-items">
+								<h6 className="image-username">{result.user}</h6>
+								<div className="image-wrapper">
+									<img src={result.previewURL} alt={result.user}/>
+								</div>
+							</a>
 						);
 					})}
 				</div>
@@ -112,13 +117,72 @@ class Search extends  React.Component {
 		}
 	};
 
+	/**
+	 * Fetch results according to the prev or next page requests.
+	 *
+	 * @param {String} type 'prev' or 'next'
+	 */
+	handlePageClick = (type) => {
+		event.preventDefault();
+		const updatedPageNo =
+			      'prev' === type
+				      ? this.state.currentPageNo - 1
+				      : this.state.currentPageNo + 1;
+
+		if (!this.state.loading) {
+			this.setState({ loading: true, message: '' }, () => {
+				// Fetch previous 50 Results
+				this.fetchSearchResults(updatedPageNo, this.state.query);
+			});
+		}
+	};
+
+
 	render() {
-		const { query } = this.state;
+
+		const { query, loading, message, currentPageNo, totalPages } = this.state;
+
+		console.warn( this.state );
+
+		// showPrevLink will false, when on the 1st page, hence wont be shown on 1st page.
+		const showPrevLink = 0 < ( currentPageNo - 1 );
+
+		// showNextLink will false, when on the last page, hence wont be shown last page.
+		const showNextLink = totalPages > ( currentPageNo + 1 );
 
 		return (
-			<div>
+			<div className="container">
+				{/*Search Input*/}
 				<input type="text" onChange={this.handleOnInputChange} value={query}/>
+
+				{/*Error Message*/}
+				{ message && <p className="message">{message}</p> }
+
+				{/*Loader*/}
+				<div className={`search-loading ${loading ? 'show' : 'hide' }`} >Loading...</div>
+
+				{/*Navigation Top*/}
+				<PageNavigation
+					loading={loading}
+					showPrevLink={showPrevLink}
+					showNextLink={showNextLink}
+					handlePrevClick={() => this.handlePageClick('prev')}
+					handleNextClick={() => this.handlePageClick('next')}
+				/>
+
+				{/*Result*/}
 				{ this.renderSearchResults() }
+
+				{/*Navigation Bottom*/}
+				<PageNavigation
+					loading={loading}
+					showPrevLink={showPrevLink}
+					showNextLink={showNextLink}
+					handlePrevClick={() => this.handlePageClick('prev')}
+					handleNextClick={() => this.handlePageClick('next')}
+				/>
+
+
 			</div>
 		)
 	}
