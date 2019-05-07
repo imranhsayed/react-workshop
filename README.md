@@ -50,7 +50,7 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 19. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
 
 ### Miscellaneous:
-20. :mag_right: [live-search-react](https://github.com/imranhsayed/react-workshop/tree/live-search-react) Raaltime search on typing using react and axios ( Onchange Input ).
+20. :mag_right: [live-search-react](https://github.com/imranhsayed/react-workshop/tree/live-search-react) Raaltime search on typing using react and axios. Includes pagination( Onchange Input ).
 
 ## Installation
 
