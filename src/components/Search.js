@@ -4,6 +4,7 @@ import { config } from "../config";
 import PageNavigation from './PageNavigation';
 
 import '../Search.css';
+import Loader from '../loader.gif';
 
 class Search extends  React.Component {
 
@@ -159,7 +160,7 @@ class Search extends  React.Component {
 				{ message && <p className="message">{message}</p> }
 
 				{/*Loader*/}
-				<div className={`search-loading ${loading ? 'show' : 'hide' }`} >Loading...</div>
+				<img  src={Loader} className={`search-loading ${loading ? 'show' : 'hide' }`}  alt="loader"/>
 
 				{/*Navigation Top*/}
 				<PageNavigation

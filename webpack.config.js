@@ -22,8 +22,15 @@ module.exports = {
 				use: ['style-loader','css-loader'],
 			},
 			{
-				test: /\.gif/,
-				use: ["url-loader",]
+				test: /\.(png|jp?g|svg|gif)$/,
+				use: [{
+					loader: "file-loader",
+					options: {
+						name: '[name].[ext]',
+						outputPath: 'images/',
+						publicPath: 'images/'
+					}
+				}]
 			}
 		]
 	},
