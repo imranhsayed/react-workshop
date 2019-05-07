@@ -35,7 +35,7 @@ blockquote, q {
 
 /*Container*/
 .container {
-	margin: 0 auto;
+	margin: 36px auto;
 	width: 100%;
 	max-width: 800px;
 }
@@ -46,6 +46,7 @@ blockquote, q {
 	font-size: 36px;
 	font-style: italic;
 	color: #444;
+	outline: none;
 }
 
 .message {
@@ -61,6 +62,7 @@ blockquote, q {
 }
 
 .result-items {
+	position: relative;
 	padding: 16px;
 	border: 1px solid #898989;
 	margin: 16px;
@@ -71,9 +73,20 @@ blockquote, q {
 }
 
 .image-username {
-	margin-bottom: 10px;
 	color: coral;
 	font-size: 18px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 5px 10px;
+
+}
+
+.image {
+	width: 100%;
+	height: 200px;
 }
 
 .image-wrapper {

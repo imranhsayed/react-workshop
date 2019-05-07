@@ -108,7 +108,7 @@ class Search extends  React.Component {
 							<a key={result.id} href={result.previewURL} className="result-items">
 								<h6 className="image-username">{result.user}</h6>
 								<div className="image-wrapper">
-									<img src={result.previewURL} alt={result.user}/>
+									<img className="image" src={result.previewURL} alt={result.user}/>
 								</div>
 							</a>
 						);
@@ -154,7 +154,15 @@ class Search extends  React.Component {
 		return (
 			<div className="container">
 				{/*Search Input*/}
-				<input type="text" onChange={this.handleOnInputChange} value={query}/>
+				<label htmlFor="search-input">
+					<input
+						type="text"
+						onChange={this.handleOnInputChange}
+						value={query}
+						id="search-input"
+						placeholder="Search..."
+					/>
+				</label>
 
 				{/*Error Message*/}
 				{ message && <p className="message">{message}</p> }
