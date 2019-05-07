@@ -8,10 +8,16 @@ class Search extends  React.Component {
 		super( props );
 
 		this.state = {
-			total: 0,
-			data: [],
-			currentPage: 0,
-		}
+			query: '',
+			results: {},
+			totalResults: 0,
+			totalPages: 0,
+			currentPageNo: 0,
+			error: '',
+			message: '',
+			loading: false,
+		};
+		this.cancel = '';
 	}
 
 	/**
@@ -39,6 +45,7 @@ class Search extends  React.Component {
 
 		const pageNumber = updatedPageNo ? `&page=${updatedPageNo}` : '';
 
+		// By default the limit of results is 20
 		const searchUrl = `https://pixabay.com/api/?key=${config.apiKey}&q=${query}${pageNumber}`;
 
 		if (this.cancel) {
@@ -52,15 +59,16 @@ class Search extends  React.Component {
 			.get(searchUrl, {
 				cancelToken: this.cancel.token,
 			})
-			.then((resData) => {
-				const totalPagesCount = this.getPageCount(resData.data.hits.total, 50);
-				const resultNotFoundMsg = !resData.data.hits.hits.length
+			.then((res) => {
+				const total = res.data.length;
+				const totalPagesCount = this.getPagesCount( total, 20 );
+				const resultNotFoundMsg = !res.data.hits.length
 					? 'There are no more search results. Please try a new search.'
 					: '';
 
 				this.setState({
-					results: resData.data.hits,
-					totalResults: resData.data.hits.total,
+					results: res.data.hits,
+					totalResults: res.data.total,
 					currentPageNo: updatedPageNo,
 					totalPages: totalPagesCount,
 					message: resultNotFoundMsg,
@@ -85,22 +93,32 @@ class Search extends  React.Component {
 		});
 	};
 
-	componentDidMount() {
-		const url = 'https://jsonplaceholder.typicode.com/posts?q=h';
-		axios.get( url )
-			.then( res => {
-				console.warn( res.data );
-				const total = res.data.length;
-				const totalPages = this.getPagesCount( total, 2 );
-				console.warn( total, totalPages );
-			} )
-			.catch( err => console.warn( err ) );
-	}
+	renderSearchResults = () => {
+		const {results} = this.state;
+		console.warn( results );
+		if (Object.keys(results).length && results.length) {
+			return (
+				<div>
+					{results.map((result) => {
+						return (
+							<div key={result.id} >
+								<h6>{result.user}</h6>
+								<img src={result.previewURL} alt={result.user}/>
+							</div>
+						);
+					})}
+				</div>
+			);
+		}
+	};
 
 	render() {
+		const { query } = this.state;
+
 		return (
 			<div>
-
+				<input type="text" onChange={this.handleOnInputChange} value={query}/>
+				{ this.renderSearchResults() }
 			</div>
 		)
 	}
