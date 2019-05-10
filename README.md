@@ -57,6 +57,8 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 1. Clone this repo in `git clone https://github.com/imranhsayed/react-workshop`
 2. `git checkout branch-name`
 
+You can see the branches and their details listed above.
+
 ## Instructions
 
 Please follow the README for individual repositories
