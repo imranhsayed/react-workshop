@@ -2,7 +2,7 @@
 
 :fire: This is a workshop for learning how to build React Applications.
 
-## :video_camera: App Demo
+## :video_camera: [App Demo](https://github.com/imranhsayed/react-workshop/tree/03-react-app-example2)
 ![](Handling-forms.gif)
 
 ## :video_camera: React Developer Tools (Chrome Extension) Demo
