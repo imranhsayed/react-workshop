@@ -81,5 +81,5 @@ Please follow the README for individual repositories
 
 ## Useful Blogs
 
-1. [SetUp React App with Webpack and Babel](https://medium.com/@imranhsayed/set-up-react-app-with-webpack-webpack-dev-server-and-babel-from-scratch-df398174446d)
+1. [SetUp React App with Webpack and Babel](https://codeytek.com/set-up-react-app-with-webpack-and-babel-react-babel-webpack-install-node-application/)
 
