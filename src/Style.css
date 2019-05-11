@@ -1,0 +1,72 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	position: relative;
+}
+
+.nav {
+	width: 30vw;
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: #888;
+	position: absolute;
+	top: 0;
+	z-index: 999;
+	background-color: #fff;
+	left: -35vw;
+	-webkit-transition: left 0.3s ease-in;
+	-o-transition: left 0.3s ease-in;
+	transition: left 0.3s ease-in;
+
+
+}
+
+@media screen and ( max-width: 600px ){
+	.nav {
+		width: 50vw;
+		left: -55vw;
+	}
+}
+
+.close {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0 15px 0 0;
+	font-size: 3rem;
+	font-weight: bold;
+	color: #AAA;
+	cursor: pointer;
+}
+
+.nav.show {
+	left: 0;
+}
+
+.menu-button {
+	position: relative;
+	z-index: 99;
+	font-size: 36px;
+	cursor: pointer;
+	padding: 10px 8px;
+}
+
+.menu-items {
+	padding: 0;
+	margin: 0;
+}
+
+.menu-list {
+	list-style: none;
+}
+
+.menu-link {
+	text-decoration: none;
+	color: #555;
+	display: flex;
+	padding: 16px 10px;
+	font-size: 24px;
+	border-bottom: 1px solid #555;
+}
