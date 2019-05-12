@@ -46,7 +46,7 @@ class Search extends React.Component {
 	 */
 	fetchSearchResults = ( updatedPageNo = '', query ) => {
 		const pageNumber = updatedPageNo ? `&page=${updatedPageNo}` : '';
-		const searchUrl = `https://pixabay.com/api/?key=12413278-79b713c7e196c7a3defb5330e&q=${query}${pageNumber}`;
+		const searchUrl = `https://pixabay.com/api/?key=PASTE_YOUR_API_KEY_HERE&q=${query}${pageNumber}`;
 
 		if( this.cancel ) {
 			this.cancel.cancel();
