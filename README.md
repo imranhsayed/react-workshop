@@ -20,8 +20,8 @@ Live Search in react application
 
 2. Run `npm install`
 
-[Blog Link](https://codeytek.com/live-search-search-react-live-search-in-react-axios-autocomplete-pagination/)
-[Pixabay API](https://pixabay.com/api/docs/#api_search_images)
+1. [Blog Link](https://codeytek.com/live-search-search-react-live-search-in-react-axios-autocomplete-pagination/)
+2. [Pixabay API](https://pixabay.com/api/docs/#api_search_images)
 
 ## Commands
 
