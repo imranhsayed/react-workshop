@@ -1,37 +1,9 @@
-/*Override default browser styles*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font: inherit;
-	vertical-align: baseline;
+.container {
+	margin: 36px auto;
+	width: 100%;
+	max-width: 800px;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
+
 
 .heading {
 	font-size: 30px;
@@ -39,14 +11,6 @@ blockquote, q {
 	color: #444;
 	text-align: center;
 }
-
-/*Container*/
-.container {
-	margin: 36px auto;
-	width: 100%;
-	max-width: 800px;
-}
-
 
 .search-label {
 	position: relative;
@@ -70,38 +34,39 @@ blockquote, q {
 	right: 18px;
 }
 
-.message {
-	padding: 22px 0;
-	font-size: 20px;
-	color: #333;
-}
-
-/* Results */
+/*Result Container*/
 .results-container {
 	display: flex;
 	flex-flow: wrap;
 }
 
-.result-items {
+.result-item {
 	position: relative;
 	padding: 16px;
 	border: 1px solid #898989;
 	margin: 16px;
 	text-align: center;
 	min-width: 200px;
-	text-decoration: none;
 	box-shadow: 2px 2px 2px #898989;
 }
 
 .image-username {
-	color: coral;
+	color: #ff7f50;
 	font-size: 18px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	margin: 0;
-	background: rgba(0, 0, 0, 0.8);
+	background-color: rgba( 0 ,0 ,0 , 0.8 );
 	padding: 5px 10px;
+}
+
+.image-wrapper {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	box-sizing: border-box;
+	height: 100%;
 
 }
 
@@ -110,20 +75,24 @@ blockquote, q {
 	height: 200px;
 }
 
-.image-wrapper {
-	display: flex;
-	align-items: center;
-	box-sizing: border-box;
-	height: 100%;
-	justify-content: center;
-}
-
+/*Loader*/
 .search-loading {
 	position: absolute;
 	left: 0;
 	right: 0;
 	margin: auto;
 }
+
+/*Show and hide*/
+.show {
+	display: inline-block;
+}
+
+.hide {
+	display: none;
+}
+
+/*Prev and next*/
 
 .nav-link-container {
 	margin: 20px 0;
@@ -137,16 +106,6 @@ blockquote, q {
 	border: 1px solid #898989;
 	padding: 10px 20px;
 	margin-right: 10px;
-}
-
-
-
-.show {
-	display: inline-block;
-}
-
-.hide {
-	display: none;
 }
 
 .greyed-out {
