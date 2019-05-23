@@ -76,7 +76,7 @@ Please follow the README for individual repositories
 
 ## Workshop Gallery :sunrise_over_mountains:
 1. [Pictures](https://twitter.com/imranhsayed/status/1125435733106237441)
-2. [MeetUp](https://www.meetup.com/PuneJS/)
+2. [MeetUp](https://www.meetup.com/PuneJS/events/260908693/)
 
 ## Tutorial Videos :movie_camera:
 1. [React Tutorial Series](https://youtu.be/M-Aw4p0pWwg)
