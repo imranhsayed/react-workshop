@@ -52,9 +52,12 @@ To checkout to individual branch run: `git checkout <branch name>`. Then check i
 18. :arrow_right: [03-refs](https://github.com/imranhsayed/react-workshop/tree/03-refs) React's Refs example
 19. :palm_tree: [03-context](https://github.com/imranhsayed/react-workshop/tree/03-context) React Context example
 
+### React Hooks
+20. :arrow_right: [react-hooks](https://github.com/imranhsayed/react-hooks)
+
 ### Miscellaneous:
-20. :mag_right: [live-search-react](https://github.com/imranhsayed/react-workshop/tree/live-search-react) Realtime search on typing using react and axios. Includes pagination( Onchange Input ).
-21. :iphone: [mmenu-react-app](https://github.com/imranhsayed/react-workshop/tree/mmenu-react-app) Mobile menu Sidebar using Burger Menu
+21. :mag_right: [live-search-react](https://github.com/imranhsayed/react-workshop/tree/live-search-react) Realtime search on typing using react and axios. Includes pagination( Onchange Input ).
+22. :iphone: [mmenu-react-app](https://github.com/imranhsayed/react-workshop/tree/mmenu-react-app) Mobile menu Sidebar using Burger Menu
 
 ## Installation
 
@@ -80,6 +83,7 @@ Please follow the README for individual repositories
 
 ## Tutorial Videos :movie_camera:
 1. [React Tutorial Series](https://youtu.be/M-Aw4p0pWwg)
+2. [React Hooks Series](https://youtu.be/2p0N29Hn-Vk)
 
 ## Useful Blogs
 
