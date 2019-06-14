@@ -85,6 +85,19 @@ Please follow the README for individual repositories
 1. [React Tutorial Series](https://youtu.be/M-Aw4p0pWwg)
 2. [React Hooks Series](https://youtu.be/2p0N29Hn-Vk)
 
+## FAQs
+
+1. How to pass a parameter in a event handler?
+
+```ruby
+const handleRemoveProductClick = ( event, productId ) => {
+        console.warn( 'Clicked productId', productId );
+    };
+return(
+    <button onClick={ ( event ) => handleRemoveProductClick( event, item.productId )  }>Item</button>
+)
+```
+
 ## Useful Blogs
 
 1. [SetUp React App with Webpack and Babel](https://codeytek.com/set-up-react-app-with-webpack-and-babel-react-babel-webpack-install-node-application/)
