@@ -1,6 +1,6 @@
 # React Workshop
 
-:fire: This is a workshop for learning how to build React Applications.
+:fire: This is a workshop for learning how to build React Application.
 
 ## :video_camera: [App Demo](https://github.com/imranhsayed/react-workshop/tree/03-react-app-example2)
 ![](Handling-forms.gif)
