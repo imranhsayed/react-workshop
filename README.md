@@ -2,9 +2,9 @@
 
 :fire: This is a workshop for learning how to build React Application
 
-******* PLEASE STAR MY REPO TO SUPPORT ME 🙏 ******
+******* PLEASE STAR MY REPO TO SUPPORT MY WORK 🙏 ******
 
-Please follow me 🙏 on [twitter](https://twitter.com/imranhsayed) and [github](https://github.com/imranhsayed)
+Please follow me 🙏 on [twitter](https://twitter.com/imranhsayed) and [github](https://github.com/imranhsayed) to stay updated with new content
 
 ## :video_camera: [App Demo](https://github.com/imranhsayed/react-workshop/tree/03-react-app-example2)
 ![](Handling-forms.gif)
