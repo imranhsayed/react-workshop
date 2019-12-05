@@ -1,6 +1,6 @@
 # React Workshop
 
-:fire: This is a workshop for learning how to build React Application.
+:fire: This is a workshop for learning how to build React Application
 
 ******* PLEASE STAR MY REPO TO SUPPORT MY WORK 🙏 ******
 
