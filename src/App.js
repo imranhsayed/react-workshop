@@ -10,7 +10,7 @@ class App extends React.Component {
 		return (
       <Router>
         <Home path="/"/>
-        <TopPicks path="/top-picks"/>
+        <TopPicks path="top-picks"/>
       </Router>
 		);
 	}

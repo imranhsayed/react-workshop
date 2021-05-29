@@ -29,7 +29,7 @@ const Movies = () => {
   return (
     <div className="max-w-screen-xl m-auto mt-12">
       <div className="flex flex-wrap -mb-4">
-        {!loading && movies?.length ? movies.map( movie =>  <Movie movie={movie}/>) : <h2>Loading...</h2>}
+        {!loading && movies?.length ? movies.map( (movie, index) => <Movie key={movie?.id ?? index} movie={movie}/>) : <h2>Loading...</h2>}
       </div>
     </div>
   )
