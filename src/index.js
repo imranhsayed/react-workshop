@@ -5,6 +5,4 @@ import registerServiceWorker from './serviceWorkerRegistration';
 
 ReactDOM.render( <App/>, document.getElementById('root') );
 
-if ( 'production' === process.env.NODE_ENV ) {
-  registerServiceWorker();
-}
+registerServiceWorker();
