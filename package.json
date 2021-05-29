@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
-    "dev": "webpack-dev-server --mode=development",
+    "dev": "webpack serve --mode=development",
     "prod": "webpack --mode=production"
   },
   "repository": {
@@ -20,22 +20,22 @@
   },
   "homepage": "https://github.com/imranhsayed/react-workshop#readme",
   "dependencies": {
-    "css-loader": "^2.1.1",
-    "file-loader": "^3.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "style-loader": "^0.23.1"
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "html-webpack-plugin": "^3.2.0",
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
     "path": "^0.12.7",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.2.1"
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
