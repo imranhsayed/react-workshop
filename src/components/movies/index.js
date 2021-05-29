@@ -10,24 +10,24 @@ const Movies = () => {
   useEffect(() => {
     setLoading(true);
 
-    // axios.get(`https://api.themoviedb.org/3/discover/tv`, {
-    //   params: {
-    //     sort_by: 'popularity.desc',
-    //     api_key: process.env.API_KEY
-    //   }
-    // })
-    //   .then( (response) => {
-    //     setLoading(false);
-    //     setMovies(response?.data?.results);
-    //   })
-    //   .catch( (error) => {
-    //     setLoading(false);
-    //     console.log(error);
-    //   })
+    axios.get(`https://api.themoviedb.org/3/discover/tv`, {
+      params: {
+        sort_by: 'popularity.desc',
+        api_key: process.env.API_KEY
+      }
+    })
+      .then( (response) => {
+        setLoading(false);
+        setMovies(response?.data?.results);
+      })
+      .catch( (error) => {
+        setLoading(false);
+        console.log(error);
+      })
   }, [])
 
   return (
-    <div className="max-w-screen-xl m-auto">
+    <div className="max-w-screen-xl m-auto mt-12">
       <div className="flex flex-wrap -mb-4">
         {!loading && movies?.length ? movies.map( movie =>  <Movie movie={movie}/>) : <h2>Loading...</h2>}
       </div>
