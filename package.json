@@ -7,6 +7,7 @@
     "webpack-dev-server": "webpack-dev-server",
     "dev": "webpack serve --mode=development",
     "prod": "webpack --mode=production",
+	"serve": "npm run prod && serve -s dist",
     "svg": "svgr -d src/components/icons src/components/icons/svgs"
   },
   "repository": {
@@ -40,6 +41,7 @@
     "dotenv-webpack": "^7.0.2",
     "html-webpack-plugin": "^5.3.1",
     "path": "^0.12.7",
+    "serve": "^11.3.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
