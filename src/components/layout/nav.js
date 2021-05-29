@@ -10,7 +10,7 @@ const Nav = () => {
             <a href="https://www.netflix.com/browse" target="_blank" rel="noopener noreferrer noopener">Browse</a>
           </li>
           <li>
-            <Link to="top-picks">Top picks</Link>
+            <Link to="/top-picks">Top picks</Link>
           </li>
           <li>
             <a href="https://www.netflix.com" target="_blank" rel="noopener noreferrer noopener">Recent</a>

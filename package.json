@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
-    "dev": "webpack serve --mode=development",
-    "prod": "webpack --mode=production",
-	"serve": "npm run prod && serve -s dist",
+    "dev": "NODE_ENV=development webpack serve --mode=development",
+    "prod": "NODE_ENV=production webpack --mode=production",
+    "serve": "npm run prod && serve -s dist",
     "svg": "svgr -d src/components/icons src/components/icons/svgs"
   },
   "repository": {
@@ -29,7 +29,14 @@
     "file-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "style-loader": "^2.0.0"
+    "style-loader": "^2.0.0",
+    "workbox-cacheable-response": "^6.1.5",
+    "workbox-core": "^6.1.5",
+    "workbox-expiration": "^6.1.5",
+    "workbox-precaching": "^6.1.5",
+    "workbox-routing": "^6.1.5",
+    "workbox-strategies": "^6.1.5",
+    "workbox-window": "^6.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -38,12 +45,14 @@
     "@babel/preset-react": "^7.13.13",
     "@svgr/cli": "^5.5.0",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
     "dotenv-webpack": "^7.0.2",
     "html-webpack-plugin": "^5.3.1",
     "path": "^0.12.7",
     "serve": "^11.3.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.1.5"
   }
 }
